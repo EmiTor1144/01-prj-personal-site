@@ -1,1 +1,184 @@
 /* Add you CSS here */
+body {
+  background-color: #fcc1e4;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.profile-card {
+  background: #ffffff;
+  border: 4px solid #b34d76;
+  border-radius: 16px;
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 32px 24px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+
+.profile-card img {
+  display: block;
+  margin: 0 auto 4px;
+  border-radius: 70%;
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+}
+
+.profile-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 16px 0 0 0;
+  text-align: center;
+}
+
+.profile-card ul li {
+  margin-bottom: 30px;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+h1 {
+  font-size: 48px;
+  color: #b9507a;
+}
+
+h2 {
+  font-size: 32px;
+  color: #80a9cb;
+}
+
+h3, p {
+  text-align: center;
+  color: rgb(0, 0, 0)
+}
+
+p {
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+.content-bar {
+  background-color: #b9507a;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px 0;
+  border-radius: 12px 12px 0 0;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+/* Container for menu buttons on the top left */
+.menu-bar-container {
+  position: absolute;
+  top: 24px;
+  left: 32px;
+}
+
+/* Style for both menu buttons */
+.menu-bar,
+.menu-bar-left {
+  display: inline-block;
+  background: #719ac9;
+  color: #fff;
+  padding: 10px 28px;
+  border-radius: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  box-shadow: 0px 5px 10px rgba(108, 24, 67, 0.08);
+  letter-spacing: 1px;
+  margin-right: 12px;
+  text-decoration: none;
+  z-index: 10;
+}
+.menu-bar:hover,
+.menu-bar-left:hover {
+  background-color : #a63663;
+}
+
+/* This class creates a dark pink margin at the top of the page */
+.top-margin {
+  height: 80px;
+  background-color: #b9507a;
+}
+
+/* Contact section at the bottom */
+.contact-section {
+  margin-top: 100px;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.contact-section h3 {
+  color: #b9507a;
+  font-size: 24px;
+  margin-bottom: 12px;
+}
+
+.contact-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+}
+
+.contact-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.contact-links a {
+  color: #719ac9;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.contact-links a:hover {
+  color: #b9507a;
+}
+
+/* Styles for the art page layout */
+.art-page {
+  max-width: 1000px;
+  margin: 40px auto 0 auto;
+  padding: 24px;
+  background: #fff;
+  border: 4px solid #a63663;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.art-gallery {
+  margin-top: 32px;
+}
+
+.art-gallery figure {
+  display: inline-block;
+  margin: 0 20px 24px 20px;
+  text-align: center;
+}
+
+.art-gallery img {
+  border-radius: 12px;
+  border: 2px solid #b9507a;
+  background: #f8e6ef;
+  padding: 8px;
+  /* If the image has alt="sk3", make it smaller */
+}
+
+.art-gallery img[src="img/sk3.jpg"] {
+  width: 130px;   /* Shrinks the sk3 image */
+  height: 170px;   /* Keeps the aspect ratio */
+}
+.art-gallery img[src="img/pt2.jpg"] {
+  width: 210px;   /* Shrinks the sk3 image */
+  height: 230px;   /* Keeps the aspect ratio */
+}
+.art-gallery figcaption {
+  margin-top: 8px;
+  font-size: 20px;
+  color: #509db9;
+}
